@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="001.css">
+  <style>
+    
+  </style>
+  <title>Animejinscan</title>
+  <link rel="website icon" type="png" href="hatdog.png">
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <a href="001.html">
+    <img src="hatdog.png" alt="Logo" class="logo">
+    </a>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" class="search-input">
+     <a href="DDSRloginpage.html" class="user-icon">&#128100;</a> 
+    </div>
+    <div class="switch-container">
+      <label class="switch">
+        <input type="checkbox" id="modeToggle" onclick="toggleMode()">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+  <div class="search-results" style="position: absolute; top: 55px; left: 15px; width: calc(100% - 30px); display: none;">
+  
+</div>
+
+  <div id="menu" class="menu-slide">
+  <span class="close" onclick="toggleMenu()">&times;</span>
+  <div class="browse">BROWSE</div>
+  <a href="#">New</a>
+  <a href="#">Hanime</a>
+  <div class="dropdown">
+    <a href="#" class="genre" onclick="toggleGenre()">
+  Genre <span id="arrowIcon">&#9660;</span>
+</a>
+
+    <div class="genre-content" id="genreContent" style="display: none;">
+      <a href="#">Action</a>
+      <a href="#">Adventure</a>
+      <a href="#">Comedy</a>
+      <a href="#">Drama</a>
+      <a href="#">Fantasy</a>
+      <a href="#">Isekai</a>
+      <a href="#">Romance</a>
+      <a href="#">Sci-Fi</a>
+      <a href="#">Seinin</a>
+      <a href="#">Shojo</a>
+      <a href="#">Slice Of Life</a>
+      <a href="#">School Life</a>
+      <a href="#">Thriller</a>              
+    </div>
+    <hr class="baby">
+      <div class="dropdown">
+  <a href="#" class="about-us" onclick="toggleAboutUs()">
+  About Us <span id="aboutUsArrow" style="">&#9660;</span>
+</a> 
+  <div class="about-us-content" id="aboutUsContent" style="visibility: hidden;">
+  <a href="#">Pisti ilisdi</a>
+  <a href="#">lang ari</a>
+  <a href="#">dapita</a>
+    </div>
+</div>
+    
+  </div>
+</div>
+  <div class="slideshow-container">
+  <div class="mySlides">
+    <div class="caption">
+      <img src="..jpg" style="width:100%">
+      <div class="rating">Rating &#9733 9.9/10</div> 
+      <div class="title">OnePiece</div> 
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <div class="caption">
+      <img src="na.jpg" style="width:100%">
+      <div class="rating">Rating &#9733 9.9/10</div> 
+      <div class="title">Naruto Shipudden</div> 
+    </div>
+  </div>
+  
+  <div class="mySlides">
+    <div class="caption">
+      <img src="yugioh.jpg" style="width:100%">
+      <div class="rating">Rating &#9733 10/10</div> 
+      <div class="title">Yu-Gi-Oh Arc V</div> 
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <div class="caption">
+      <img src="bleach.jpg" style="width:100%">
+      <div class="rating">Rating &#9733 9.9/10</div> 
+      <div class="title">Bleach</div> 
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <div class="caption">
+      <img src="Eminence.jpg" style="width:100%">
+      <div class="rating">Rating &#9733 10/10</div> 
+      <div class="title">The Eminence In Shadow</div>
+    </div>
+  </div>
+</div>
+<h2>Latest Update On Dragon Dream's <a href="e.html" class="view-more">View More&#9654</a></h2>
+<p>Find the latest updated anime in here!</p>
+<div class="container-wrapper swiper-container">
+    <div class="swiper-wrapper">
+     
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">8/12</span>
+            <img src="Theshadow.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="01.html" class="title-op">The Eminence In Shadow</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">10/12</span>
+            <img src="darkga.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Dark Gathering</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">8/12</span>
+            <img src="100.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">100 Girlfriend Who Really Loves Me</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="glutony.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Berserk Of Gluttony</a>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">8/12</span>
+            <img src="jujutsu.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Jujutsu Kaisen</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">10/12</span>
+            <img src="ruruni.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Ruruni Kenshi(2023)</a>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">8/12</span>
+            <img src="returners.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">A Returner's Magic Should Be Special</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">11/12</span>
+            <img src="firen.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Frieren: Beyond Journey's End</a>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+<h2>Recently Added <a href="#" class="view-more">View More&#9654</a></h2>
+<p>Find the best new added anime that you want!</p>
+<div class="container-wrapper swiper-container">
+    <div class="swiper-wrapper">
+     
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="code.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="video.html" class="title-op">Code Geass</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="Death.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">DeathNote</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="dragon.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Dragon Ball Z</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="Inuyasha.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Inuyasha</a>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="Sailor.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">SailorMoon</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="cowboy.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Cowboy Bebop</a>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="tokyoghoul.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Tokyo Ghoul</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="fullmetal.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Fullmetal Alchemist</a>
+        </div>
+      </div>
+      
+      
+
+    </div>
+  </div>
+<h2>Completed <a href="#" class="view-more">View More&#9654</a></h2>
+<p>Here's the completed anime! UwU</p>
+<div class="container-wrapper swiper-container">
+    <div class="swiper-wrapper">
+     
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="shaman.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="video.html" class="title-op">ShamanKing</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="highrise.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Highrise Invasion</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="aot.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Attack On Titan</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="kuroko.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Kuroko No Basket</a>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="jojo.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">JoJo's Bizarre Adventure</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="mob.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">MobPsycho</a>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="youlie.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Your Lie in April</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-container">
+              <span class="hd-text">HD</span>
+      <span class="sub-text">Sub</span>
+      <span class="episode-text">12/12</span>
+            <img src="Juliet.jpg" alt="Your Image" class="medium-image">
+          </div>
+          <a href="#" class="title-op">Boarding School Juliet</a>
+        </div>
+      </div>
+      
+     
+
+    </div>
+  </div>
+
+
+<div class="top-views-section">
+  <h2>Top Anime🔥</h2>
+  <ol class="top-views">
+    <li>
+      <div class="list-item">
+        <span class="number">1.</span>
+        <img src="jujutsu.jpg" alt="Small Image 1" class="small-image">
+        <div class="details">
+          <span class="title-qt">Jujutsu Kaisen</span> 
+          <div class="views">
+            <span class="views-icon">&#128065;</span> 
+            <span class="views-count">127k</span>
+          </div>
+        </div>
+      </div>  
+        </link>
+          <li>
+      <div class="list-item">
+        <span class="number">2.</span>
+        <img src="Theshadow.jpg" alt="Small Image 1" class="small-image">
+        <div class="details">
+          <span class="title-qt">The Eminence in Shadow</span> 
+          <div class="views">
+            <span class="views-icon">&#128065;</span> 
+            <span class="views-count">113k</span>
+          </div>
+        </div>
+      </div>  
+        </link> 
+          <li>
+      <div class="list-item">
+        <span class="number">3.</span>
+        <img src="onepiece.jpg" alt="Small Image 1" class="small-image">
+        <div class="details">
+          <span class="title-qt">OnePiece</span> 
+          <div class="views">
+            <span class="views-icon">&#128065;</span> 
+            <span class="views-count">104k</span>
+          </div>
+        </div>
+      </div>  
+        </link> 
+         <li>
+      <div class="list-item">
+        <span class="number">4.</span>
+        <img src="ragna.jpg" alt="Small Image 1" class="small-image">
+        <div class="details">
+          <span class="title-qt">Ragna Crimson</span> 
+          <div class="views">
+            <span class="views-icon">&#128065;</span> 
+            <span class="views-count">98k</span>
+          </div>
+        </div>
+      </div>  
+        </link>
+         <li>
+      <div class="list-item">
+        <span class="number">5.</span>
+        <img src="ruruni.jpg" alt="Small Image 1" class="small-image">
+        <div class="details">
+          <span class="title-qt">Ruruni Kenshin</span> 
+          <div class="views">
+            <span class="views-icon">&#128065;</span> 
+            <span class="views-count">92k</span>
+          </div>
+        </div>
+      </div>  
+        </link>
+        <li>
+      <div class="list-item">
+        <span class="number">6.</span>
+        <img src="100.jpg" alt="Small Image 1" class="small-image">
+        <div class="details">
+          <span class="title-qt">100 Girlfriend Who Really Really Loves Me</span> 
+          <div class="views">
+            <span class="views-icon">&#128065;</span> 
+            <span class="views-count">87k</span>
+          </div>
+        </div>
+      </div>  
+        </link>
+         <li>
+      <div class="list-item">
+        <span class="number">7.</span>
+        <img src="returners.jpg" alt="Small Image 1" class="small-image">
+        <div class="details">
+          <span class="title-qt">A Returner's Magic Should Be Speacial</span> 
+          <div class="views">
+            <span class="views-icon">&#128065;</span> 
+            <span class="views-count">85k</span>
+          </div>
+        </div>
+      </div>  
+        </link>
+        <li>
+      <div class="list-item">
+        <span class="number">8.</span>
+        <img src="glutony.jpg" alt="Small Image 1" class="small-image">
+        <div class="details">
+          <span class="title-qt">Berserk Of Gluttony</span> 
+          <div class="views">
+            <span class="views-icon">&#128065;</span> 
+            <span class="views-count">83k</span>
+          </div>
+        </div>
+      </div>  
+        </link>
+        <li>
+      <div class="list-item">
+        <span class="number">9.</span>
+        <img src="darkga.jpg" alt="Small Image 1" class="small-image">
+        <div class="details">
+          <span class="title-qt">Dark Gathering</span> 
+          <div class="views">
+            <span class="views-icon">&#128065;</span> 
+            <span class="views-count">72k</span>
+          </div>
+        </div>
+      </div>  
+        </link>
+        <li>
+      <div class="list-item">
+        <span class="number">10.</span>
+        <img src="firen.jpg" alt="Small Image 1" class="small-image">
+        <div class="details">
+          <span class="title-qt">Frieren: Beyond Journey's End</span> 
+          <div class="views">
+            <span class="views-icon">&#128065;</span> 
+            <span class="views-count">69k</span>
+          </div>
+        </div>
+      </div>  
+        </link>      
+                   
+                                     
+  </ol>
+</div>
+<footer class="footer">
+  <div class="additional-logo">
+      <p>Connect with Us:</p>
+    <div class="icon-section">
+      <a href="https://www.facebook.com/egeren.berdin" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+      <a href="https://x.com/Miyamura5000?t=CApcBtXaTTYF0V31wQOIYw&s=09" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+      <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1" target="_blank"><img src="google.png" alt="Google"></a>
+      <a href="#" id="copyLink"><img src="share.png" alt="Share"></a>
+    </div>
+    <div class="logo-section">
+      <img src="hatdog.png" alt="Your Logo">
+      <span class="additional-logo-text">Dragon Dream's Realm Inc.</span>
+    </div>
+  </div>
+  <p>@Copy Right DDSR.</p>
+</footer>
+
+
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    // Initialize Swiper
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 2, 
+      spaceBetween: 10, 
+      grabCursor: true, 
+      
+    });
+  </script>
+
+
+  <script src="001.js"></script>
+
+</body>
+</html>
